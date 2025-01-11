@@ -14,7 +14,7 @@ const FlightBookingPage = () => {
   }
 
   return (
-    <div className="flight-booking-page">
+    <div className="book-flight">
       <h1>Flight Booking</h1>
       <input 
         type="text" 
