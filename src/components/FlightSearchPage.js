@@ -16,7 +16,7 @@ const FlightSearchPage = () => {
   }
 
   return (
-    <div className="flight-search-page">
+    <div className="flight-search">
       <h1>Flight Search</h1>
       <select onChange={(e) => setFlightType(e.target.value)} value={flightType}>
         <option value="one-way">One-Way</option>
